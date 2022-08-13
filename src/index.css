@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .smooth{
+     @apply transition ease-in-out duration-200
+    }
+}
